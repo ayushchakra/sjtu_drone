@@ -2,7 +2,7 @@
   <world name='default'>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>-15.9491 4.17851 11.6866 0 0.375156 -0.107126</pose>
+        <pose>15.2654 -15.9677 9.51753 0 0.583156 1.87288</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -736,60 +736,10 @@
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
     <state world_name='default'>
-      <sim_time>1740 750000000</sim_time>
-      <real_time>820 899745901</real_time>
-      <wall_time>1702358775 65569478</wall_time>
-      <iterations>813358</iterations>
-      <model name='Apriltag36_11_00000'>
-        <pose>1 8 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='main'>
-          <pose>1 8 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='Apriltag36_11_00001'>
-        <pose>1 0 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='main'>
-          <pose>1 0 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='Apriltag36_11_00003'>
-        <pose>1 -10.5 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='main'>
-          <pose>1 -10.5 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='Apriltag36_11_00004'>
-        <pose>11.5 -10.5 0.2 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='main'>
-          <pose>11.5 -10.5 0.2 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='Apriltag36_11_00005'>
-        <pose>12 -3.75 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='main'>
-          <pose>12 -3.75 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
+      <sim_time>1791 776000000</sim_time>
+      <real_time>51 824305958</real_time>
+      <wall_time>1702443617 252825396</wall_time>
+      <iterations>51026</iterations>
       <model name='cafe'>
         <pose>6.6045 1.09387 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -867,125 +817,5 @@
         <pose>0 0 10 0 -0 0</pose>
       </light>
     </state>
-    <model name='Apriltag36_11_00000'>
-      <link name='main'>
-        <pose>0 0 0 0 -0 0</pose>
-        <visual name='main_Visual'>
-          <geometry>
-            <box>
-              <size>1 1 0.01</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>model://Apriltag36_11_00000/materials/scripts</uri>
-              <uri>model://Apriltag36_11_00000/materials/textures</uri>
-              <name>Apriltag36_11_00000</name>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <static>1</static>
-      <pose>-0.002188 0.105399 0 0 -0 0</pose>
-    </model>
-    <model name='Apriltag36_11_00001'>
-      <link name='main'>
-        <pose>0 0 0 0 -0 0</pose>
-        <visual name='main_Visual'>
-          <geometry>
-            <box>
-              <size>1 1 0.01</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>model://Apriltag36_11_00001/materials/scripts</uri>
-              <uri>model://Apriltag36_11_00001/materials/textures</uri>
-              <name>Apriltag36_11_00001</name>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <static>1</static>
-      <pose>0.000848 0.015374 0 0 -0 0</pose>
-    </model>
-    <model name='Apriltag36_11_00003'>
-      <link name='main'>
-        <pose>0 0 0 0 -0 0</pose>
-        <visual name='main_Visual'>
-          <geometry>
-            <box>
-              <size>1 1 0.01</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>model://Apriltag36_11_00003/materials/scripts</uri>
-              <uri>model://Apriltag36_11_00003/materials/textures</uri>
-              <name>Apriltag36_11_00003</name>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <static>1</static>
-      <pose>-1.8671 -3.04074 0 0 -0 0</pose>
-    </model>
-    <model name='Apriltag36_11_00004'>
-      <link name='main'>
-        <pose>0 0 0 0 -0 0</pose>
-        <visual name='main_Visual'>
-          <geometry>
-            <box>
-              <size>1 1 0.01</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>model://Apriltag36_11_00004/materials/scripts</uri>
-              <uri>model://Apriltag36_11_00004/materials/textures</uri>
-              <name>Apriltag36_11_00004</name>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <static>1</static>
-      <pose>11.913 -11.5116 0 0 -0 0</pose>
-    </model>
-    <model name='Apriltag36_11_00005'>
-      <link name='main'>
-        <pose>0 0 0 0 -0 0</pose>
-        <visual name='main_Visual'>
-          <geometry>
-            <box>
-              <size>1 1 0.01</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>model://Apriltag36_11_00005/materials/scripts</uri>
-              <uri>model://Apriltag36_11_00005/materials/textures</uri>
-              <name>Apriltag36_11_00005</name>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <static>1</static>
-      <pose>13.3402 -3.76793 0 0 -0 0</pose>
-    </model>
   </world>
 </sdf>
